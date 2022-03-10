@@ -325,7 +325,7 @@ nav {
     }
 
     .cards {
-        margin-left: 7%;
+        margin-left: 3%;
     }
 
 
@@ -442,6 +442,10 @@ nav {
 
     .article-mid {
         font-size: 23px;
+    }
+
+    .cards {
+        margin-left: 7%;
     }
 
 }
