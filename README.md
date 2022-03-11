@@ -4,7 +4,7 @@
 <img id="brand" src="./assets/GIF/page.gif" width="500px" alt="imagem-calculator">
 
 
-> Esse é um site responsivo, produzido com a inteção de treinar positions e responsividade.
+> Trata-se de um website responsivo, produzido com a inteção de treinar positions e responsividade.
 
 Confira a aplicação: <a href="https://devmatheus20.github.io/brand-page/"> https://devmatheus20.github.io/brand-page/
 
