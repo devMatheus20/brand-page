@@ -87,13 +87,6 @@ nav {
     box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.96);
 }
 
-.button-play {
-    width: 10%;
-    position: relative;
-    bottom: 250px;
-    cursor: pointer;
-}
-
 .container-paragraphs {
     margin-top: 40px;
     text-align: center;
@@ -152,17 +145,17 @@ nav {
     max-width: 330px;
     min-width: 330px;
     font-size: calc(1rem + 1vw);
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .paragraph-mid-1 {
     margin-bottom: 38px;
 }
 
-
 .cards {
     display: flex;
     width: 100%;
+    height: 60%;
     position: relative;
     right: 10px;
 }
@@ -176,14 +169,15 @@ nav {
 
 .card-1 img {
     width: 100%;
+    height: 100%;
     border-radius: 15px;
     box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.96);
 }
 
 .card-2 {
     position: relative;
-    top: 15px;
-    right: 40px;
+    top: 65%;
+    right: 5%;
     width: 50%;
     width: 50%;
     z-index: 1;
@@ -191,6 +185,7 @@ nav {
 
 .card-2 img {
     width: 100%;
+    height: 100%;
     border-radius: 15px;
     box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.96);
 }
@@ -308,7 +303,7 @@ nav {
 @media(max-width: 1050px) {
     .container-mid {
         flex-direction: column-reverse;
-        gap: 30px;
+        gap: 90px;
     }
 
     .container-article-mid {
@@ -320,7 +315,6 @@ nav {
 
     .article-mid {
         margin-right: 0;
-        margin-top: 15%;
         max-width: 90%;
     }
 
@@ -328,6 +322,10 @@ nav {
         margin-left: 3%;
     }
 
+    .card-2 {
+        position: absolute;
+        top: 40%;
+    }
 
     .card-bottom {
         flex-direction: column;
@@ -340,7 +338,6 @@ nav {
     }
 
     .card-img img{
-        height: 100%;
         border-radius: 1rem 1rem  0 0;
     }
 
@@ -348,7 +345,6 @@ nav {
         justify-content: center;
         padding: 30px 20px;
         width: 100%;
-        height: 100%;
         align-items: center;
     }
 
@@ -450,6 +446,12 @@ nav {
 
 }
 
+@media(max-width: 570px){
+    .container-mid {
+        gap: 40px;
+    }
+}
+
 @media(max-width:500px) {
     .title-bottom h2 {
         font-size: 27px;
@@ -459,6 +461,10 @@ nav {
         bottom: 12px;
         right: 10px;
     }
+
+    .card-2 {
+        top: 30%;
+    }  
 }
 
 @media(max-width:470px) {
@@ -482,6 +488,16 @@ nav {
 
     .paragraph-2 img {
         width: 97%;
+    }
+}
+
+@media(max-width: 370px) {
+    .container-mid {
+        gap: 0px;
+    }
+
+    .card-2 {
+        top: 10%;
     }
 }
 
