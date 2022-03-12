@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 body a {
     text-decoration: none;
     outline: none;

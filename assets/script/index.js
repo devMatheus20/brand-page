@@ -7,7 +7,4 @@ containerTop.style.paddingTop = '90px'
 const showMenu = () => {
     if(menuList.style.maxHeight == '0px') menuList.style.maxHeight = '170px'
     else menuList.style.maxHeight = '0px'
-    
-    if(containerTop.style.paddingTop == '90px') containerTop.style.paddingTop = '180px'
-    else containerTop.style.paddingTop = '90px'
 }
