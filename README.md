@@ -8,7 +8,7 @@
 
 Confira a aplicação: <a href="https://devmatheus20.github.io/brand-page/"> https://devmatheus20.github.io/brand-page/
 
-## 🚀 Technologies
+## 🚀 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias:
     
 - HTML
